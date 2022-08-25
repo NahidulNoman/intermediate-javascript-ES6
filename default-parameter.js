@@ -8,19 +8,29 @@
     return total;
 } */
 
+// function default parameter 
 
-function add(first, second = 0){
-    const total = first + second;
-    return total;
+
+function yourName(first, last = 'khan'){
+    let fullName = first + ' ' + last;
+    return fullName;
 }
+let fullName = yourName('noman');
+// console.log(fullName);
 
-const result = add(10);
-console.log(result);
 
-function fullName (first, last = 'Chowdhury'){
-    const name = first + ' ' + last;
-    return name;
-}
+// function add(first, second = 0){
+//     const total = first + second;
+//     return total;
+// }
 
-const name = fullName('Gelam');
-console.log(name);
+// const result = add(10);
+// console.log(result);
+
+// function fullName (first, last = 'Chowdhury'){
+//     const name = first + ' ' + last;
+//     return name;
+// }
+
+// const name = fullName('Gelam');
+// console.log(name);

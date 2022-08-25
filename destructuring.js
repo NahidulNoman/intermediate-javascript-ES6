@@ -11,30 +11,33 @@ const fish = {
 // const price = fish.price;
 
 const {phone} = fish;
+const {address} = fish;
+// console.log(address);
 
-console.log(phone);
-console.log(phone);
-console.log(phone);
-console.log(phone);
-console.log(phone);
+// console.log(phone);
+// console.log(phone);
+// console.log(phone);
+// console.log(phone);
+// console.log(phone);
+
+// if you want to get value from object you must need the same property name as a declare variable.
 
 const {age, name} = {name: 'Almas', age: 56, profession: 'makeup artist'}
-console.log(age);
+// console.log(age);
 
-const {address} = fish;
-console.log(address);
 
 // array destructuring
-const [first, another] = [44, 99, 88, 456];
-console.log(first, another);
 
-const nayoks = ['sakib', 'bappi', 'raj'];
-const [king, lost, notun] = nayoks;
-console.log(notun);
+const [first, another] = [44, 99, 88, 456];
+// console.log(first, another);
+
+const names = ['hel', 'tom', 'jack'];
+const [nam1, nam2, nam3] = names;
+// console.log(nam3);
 
 function getNames(){
-    return ['Alim', 'Halim'];
+    return ['Goo', 'Gle'];
 }
 
-const [baba, chacha] = getNames();
-console.log(chacha, baba);
+const [go, goes] = getNames();
+console.log(go, goes);
