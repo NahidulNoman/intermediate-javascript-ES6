@@ -56,10 +56,9 @@ let square = sqr => {
        let doubleIt = Math.pow(s,2);
         squareNumber.push(doubleIt);
         sum = sum + doubleIt;
-        average = sum / squareNumber.length
+        average = sum / squareNumber.length;
     }
     return squareNumber,sum;
-    
 }
 let squareArr = [2,4,6,8,10,12];
 // console.log(square(squareArr));
@@ -82,4 +81,4 @@ let twoArrInput = (mix1,mix2) => {
 }
 let firstArr = [2,4,6,8];
 let lastArr = [10,12,14,16,45];
-console.log(twoArrInput(firstArr,lastArr));
+// console.log(twoArrInput(firstArr,lastArr));
