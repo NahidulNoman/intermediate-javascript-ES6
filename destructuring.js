@@ -1,3 +1,6 @@
+// object destructuring 
+
+
 const fish = {
     name: 'King Hilsa', 
     address: 'Chandpur',
@@ -26,7 +29,10 @@ const {age, name} = {name: 'Almas', age: 56, profession: 'makeup artist'}
 // console.log(age);
 
 
+
 // array destructuring
+
+
 
 const [first, another] = [44, 99, 88, 456];
 // console.log(first, another);
@@ -36,7 +42,7 @@ const [nam1, nam2, nam3] = names;
 // console.log(nam3);
 
 function getNames(){
-    return ['Goo', 'Gle'];
+    return ['Goo','Gle'];
 }
 
 const [go, goes] = getNames();
